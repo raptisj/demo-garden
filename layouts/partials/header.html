@@ -1,0 +1,26 @@
+<header>
+	{{ strings.Repeat ( .Site.Title | len | add 6 ) "=" }}<br>
+	== <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> ==<br>
+	{{ strings.Repeat ( .Site.Title | len | add 6 ) "=" }}
+  
+  <div class="author">
+    <div class="author__info">
+      <div>{{ .Site.Params.subtitle }}</div>
+      <img src="https://raw.githubusercontent.com/RikaGoldberg/digitalgarden/master/uPic/profilepic.jpg" />
+    </div>
+    
+    <p class="author__nav">
+      <nav>
+        <a href="/"><b>Start</b></a>.
+        {{ with .Site.Menus.main }}
+        {{ range . }}
+        <a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>.
+        {{ end }}
+      </nav>
+    </p>
+    
+  </div>
+
+
+	{{ end }}
+</header>

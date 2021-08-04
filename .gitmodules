@@ -1,0 +1,6 @@
+[submodule "digitalgarden"]
+	path = digitalgarden
+	url = https://github.com/RikaGoldberg/digitalgarden
+[submodule "theme/smol"]
+	path = theme/smol
+	url = git@github.com:colorchestra/smol.git

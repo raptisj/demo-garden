@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+        <title>Tags | Rika&#39;s personal site</title>
+        <meta name="description" content="Tags">
+        <meta property="og:site_name" content="Tags" />
+        <meta property="og:title" content="Rika&#39;s personal site" />
+        <meta property="og:description" content=""/>
+        <meta property="og:image" content="uildDrafts" />
+    
+    
+    <meta name="keywords" content="">
+    <link rel="icon" type="image/svg" href='uildDrafts'/>
+    <meta name="author" content=''>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.86.0" />
+    
+    <link rel="stylesheet" href="/uildDrafts/sass/main.min.897eb4b3722ab153248cdb5469cb00ab5d8b6167ff97d8234eb344fff657406e.css" type="text/css" media="screen" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+    
+    <link rel="alternate" type="application/rss+xml" href="uildDrafts/tags/index.xml" title="Rika's personal site" />
+    </head>
+
+<body>
+      <div class="line" id="scrollIndicator"></div>
+      <div class="main"><div class="title">
+  <div class="name">
+    <h2><a href="uildDrafts"
+	   style="text-decoration: none; color: inherit;"></a></h2>
+  </div>
+  <div class="color-scheme">
+    <input type="checkbox" class="checkbox" id="chk" />
+    <label class="label" for="chk">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+      <div class="ball"></div>
+    </label>
+  </div>
+</div>
+<script>
+  const themeSetter = (theme) => {
+      document.body.classList.toggle('light')
+      localStorage.setItem('theme', theme)
+      blockSwitcher()
+  }
+
+  const blockSwitcher = () => [...document.getElementsByTagName("BLOCKQUOTE")]
+	.forEach(b => b.classList.toggle('light'))
+
+  const styleSwapper = () => {
+      document.body.classList.add('back-transition')
+      if (localStorage.getItem('theme') === 'dark') themeSetter('light')
+      else if (localStorage.getItem('theme') === 'light') themeSetter('dark')
+  }
+
+  if (localStorage.getItem('theme') === 'light'){
+      themeSetter('light')
+      document.addEventListener("DOMContentLoaded", blockSwitcher)
+  }
+ else localStorage.setItem('theme', 'dark')
+
+  document.getElementById('chk').addEventListener('change',styleSwapper);
+
+  window.addEventListener("scroll", () => {
+      let height = document.documentElement.scrollHeight
+          - document.documentElement.clientHeight;
+      if(height >= 500){
+	  let winScroll = document.body.scrollTop
+              || document.documentElement.scrollTop;
+	  let scrolled = (winScroll / height) * 100;
+	  document.getElementById("scrollIndicator").style.width = scrolled + "%";
+      }
+  });
+</script>
+
+<br>
+    <h2 class="post-title"><a class="go-back" href="uildDrafts">
+	<i class="far fa-caret-square-left"></i> </a>Tags</h2>
+        
+        
+          
+        
+<footer id="footer">
+    <strong></strong>
+    <p style="color:grey;"></p>
+</footer>
+</div>
+    </body>
+</html>

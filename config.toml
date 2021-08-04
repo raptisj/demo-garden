@@ -1,0 +1,38 @@
+baseURL = "https://www.rikagoldberg.com/"
+languageCode = "en-us"
+title = "Rika's website"
+theme = 'smol'
+tags = ["Ichiro Kishimi", "Donnella Meadows", "Russell Ackoff", "Katerina Bohle Carbonell","Christopher Alexander","Ernest Hemingway", "Joan Didion", "Scott Barry Kaufman","Transcend", "Generalist", "A Swim in the Pond in the Rain", "George Saunders", "The Psychedelic Explorers Guide", "James Fadiman", "Zen and the Art of Motorcyle Maintenance", "Robert Pirsig", "Ernest Hemingway", "Joan Didion", "Vincent Van Gogh"]
+categories = ["Qubits", "Newsletter", "Book Notes"]
+# Parameters
+[params]
+    subtitle = "Howdy!"
+    dateFmt = "01-02-2006"
+    default = 20
+
+
+# Header
+[menu]
+  [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 1
+
+  [[menu.main]]
+        identifier = "categories"
+        name = "Categories"
+        url = "/categories/"
+        weight = 2
+
+  [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 3
+
+# Footer
+  [[menu.footer]]
+        name = "Twitter"
+        url = "https:/twitter.com/rikagoldberg"
+        weight = 1
