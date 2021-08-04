@@ -4,3 +4,6 @@
 [submodule "theme/smol"]
 	path = theme/smol
 	url = git@github.com:colorchestra/smol.git
+[submodule "smol"]
+	path = smol
+	url = https://github.com/colorchestra/smol
