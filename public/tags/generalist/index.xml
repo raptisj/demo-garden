@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generalist on Rika&#39;s website</title>
+    <link>https://www.rikagoldberg.com/tags/generalist/</link>
+    <description>Recent content in Generalist on Rika&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.rikagoldberg.com/tags/generalist/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making the Case to Be a Generalist</title>
+      <link>https://www.rikagoldberg.com/posts/making-the-case-to-be-a-generalist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.rikagoldberg.com/posts/making-the-case-to-be-a-generalist/</guid>
+      <description>Generalists vs. Specialists School teaches us to think like specialists. You are probably already familiar with the specialist mental model for problem solving:
+  make a list of all anticipated tasks
+  complete the first task
+  complete the second task
+  continue to complete all tasks until there are none left
+  The specialist approach makes it seem as if problem solving is linear, as if completing one task will unlock another task, and just like a game, you keep leveling up until you’ve won.</description>
+    </item>
+    
+  </channel>
+</rss>
